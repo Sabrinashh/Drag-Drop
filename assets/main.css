@@ -1,0 +1,61 @@
+.item{
+    height: 100px;
+    cursor: -webkit-grab; 
+    cursor: grab;
+}
+.item:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+.area{
+    width: 250px;
+    height: 250px;
+    border: 1px solid brown;
+}
+.area .item{
+    width: 50px;
+    height: 50px;
+}
+.bg-apple{
+   background-image: url(https://www.collinsdictionary.com/images/full/apple_158989157.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.bg-mango{
+    background-image: url(https://florigen.co.ke/wp-content/uploads/fruit-mango-apple-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+ }
+ .bg-pineapple{
+    background-image: url(https://farrp.unl.edu/image/image_gallery/uuid%3D6b761ecc-b4b7-4a23-878a-c9475e203946%26groupId%3D2103626%26t%3D1285256795008);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+ }
+.bg-carrot{
+ background-image: url(https://static.libertyprim.com/files/familles/carotte-large.jpg?1569271734);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 120%;
+}
+.bg-cabbage{
+    background-image: url(https://3.imimg.com/data3/RU/FR/MY-7201743/cabbage-500x500.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
+.bg-tomato{
+    background-image: url(https://www.tastingtable.com/img/gallery/the-2-most-efficient-ways-to-seed-a-large-tomato/l-intro-1661455016.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+   }
+.area-fruit{
+    border:2px solid orangered;
+}
+.area-vege{
+    border:2px solid lightgreen;
+}
