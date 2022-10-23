@@ -11,6 +11,7 @@ for (const area of areas) {
         e.preventDefault();
     })
     area.addEventListener('drop',()=>{
-        area.appendChild(dragItem)
+        area.appendChild(dragItem);
     })
 }
+
